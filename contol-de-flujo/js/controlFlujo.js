@@ -182,7 +182,7 @@ function recomendarPelicula(categoria){
         break;
   
       case "drama":
-        console.log("Recomendación de película de drama: La La Land");
+        console.log("Recomendación de película de drama: Man on fire");
         break;
   
       case "comedia":
@@ -222,6 +222,7 @@ function recomendarPelicula(categoria){
  */
 
 function cajeroATM(opcion){
+    
     switch (opcion){
       case 1:
         console.log("Opción seleccionada: Retirar dinero");
