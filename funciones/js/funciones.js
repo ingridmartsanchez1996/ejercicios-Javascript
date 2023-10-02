@@ -50,12 +50,12 @@
 
  // Funcion con nombre
  function calcularGradosFarenheit (gradosCelcius){
-    let gradosFarenheit = 9/5 * gradosCelcius + 32
+    let gradosFarenheit = (9/5) * gradosCelcius + 32
     console.log(gradosFarenheit);
  }
 
  // Funcion con flecha
- const calcularGradosFarenheint = (gradosCelcius) => gradosFarenheit = 9/5 * gradosCelcius + 32;
+ const calcularGradosFarenheint = (gradosCelcius) => gradosFarenheit = (9/5) * gradosCelcius + 32;
 
  // * calcular el valor del voltaje dadas la resistencia y la corriente
  /**
@@ -83,12 +83,12 @@
   */
   // Funcion con nombre
   function calcularVolumenEsfera (radio){
-    let volumenEsfera = 4/3 * 3.1416 * radio**3
+    let volumenEsfera = (4/3) * 3.1416 * radio**3
     console.log("El volumen de la esfera es de: " + volumenEsfera);
   }
 
   // Funcion con flecha
-  const calcularVolumenEsfera = (radio) => volumenEsfera = 4/3 * 3.1416 * radio**3;
+  const calcularVolumenEsfera = (radio) => volumenEsfera = (4/3) * 3.1416 * radio**3;
 
  /**  CONSIDERACIONES: poner en practica las mejores practicas para declarar funciones
  * Los ejercicios se entregan tanto en funciones con nombre como funciones flecha
