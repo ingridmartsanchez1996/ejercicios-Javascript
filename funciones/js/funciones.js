@@ -17,7 +17,7 @@
  }
 
  // Funcion con flecha
- const perimetroCirculo = (radio) => perimetro = 2*3.1416*radio
+ const perimetroCirculo = (radio) => perimetro = 2*3.1416*radio;
 
 
  // * calcular el area de un rectangulo
@@ -30,32 +30,32 @@
  // Funcion con nombre
  function calcularAreaRectangulo (base, altura){
     let areaRectangulo = base*altura
-    console.log("El area del rectangulo es de: " + areaRectangulo)
+    console.log("El area del rectangulo es de: " + areaRectangulo);
  }
 
  // Funcion con flecha
- const areaRectangulo = (base, altura) => area = base*altura
+ const areaRectangulo = (base, altura) => area = base*altura;
 
  // * calcular el cuadrado de un numero
  // Funcion con nombre
  function calcularCuadradoNumero (numero){
     let cuadradoNumero = numero**2
-    return `El cuadrado del numero es de: ${cuadradoNumero}`
+    return `El cuadrado del numero es de: ${cuadradoNumero}`;
  }
  
  // Funcion con flecha
- const cuadradoNumero = (numero) => cuadradoNum = numero**2
+ const cuadradoNumero = (numero) => cuadradoNum = numero**2;
 
  // * calcular la conversion de grados celsius a farenheit
 
  // Funcion con nombre
  function calcularGradosFarenheit (gradosCelcius){
     let gradosFarenheit = 9/5 * gradosCelcius + 32
-    console.log(gradosFarenheit)
+    console.log(gradosFarenheit);
  }
 
  // Funcion con flecha
- const calcularGradosFarenheint = (gradosCelcius) => gradosFarenheit = 9/5 * gradosCelcius + 32
+ const calcularGradosFarenheint = (gradosCelcius) => gradosFarenheit = 9/5 * gradosCelcius + 32;
 
  // * calcular el valor del voltaje dadas la resistencia y la corriente
  /**
@@ -67,11 +67,11 @@
   // Funcion con nombre
   function calcularVoltaje (resistencia, corriente){
     let voltaje = resistencia*corriente
-    console.log("El voltaje es de: " + voltaje)
+    console.log(`El voltaje es de: " ${voltaje}`);
   }
 
   // Funcion con flecha
- const calcularVoltaje = (resistencia, corriente) => voltaje = resistencia*corriente
+ const calcularVoltaje = (resistencia, corriente) => voltaje = resistencia*corriente;
 
 
  // * calcular el volumen de una esfera
@@ -84,11 +84,11 @@
   // Funcion con nombre
   function calcularVolumenEsfera (radio){
     let volumenEsfera = 4/3 * 3.1416 * radio**3
-    console.log("El volumen de la esfera es de: " + volumenEsfera)
+    console.log("El volumen de la esfera es de: " + volumenEsfera);
   }
 
   // Funcion con flecha
-  const calcularVolumenEsfera = (radio) => volumenEsfera = 4/3 * 3.1416 * radio**3
+  const calcularVolumenEsfera = (radio) => volumenEsfera = 4/3 * 3.1416 * radio**3;
 
  /**  CONSIDERACIONES: poner en practica las mejores practicas para declarar funciones
  * Los ejercicios se entregan tanto en funciones con nombre como funciones flecha
